@@ -1,5 +1,7 @@
 package br.com.alura.codechella.dominio.evento;
 
+import br.com.alura.codechella.vendas.dominio.evento.Categoria;
+import br.com.alura.codechella.vendas.dominio.evento.Evento;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +10,7 @@ import java.time.LocalDateTime;
 public class TesteFabricaDeEvento {
 
     @Test
-    void testeFavbricaDeEventos() {
+    void testeFabricaDeEventos() {
 
         Evento evento = new Evento.Builder()
                 .comCategoria(Categoria.MUSICA)
